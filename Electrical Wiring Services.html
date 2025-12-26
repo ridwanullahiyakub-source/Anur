@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/service-wiring.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Electrical Wiring Services</title>
+<meta name="description" content="Professional electrical wiring and rewiring services for homes and businesses.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{font-family:Arial;background:#f4f6f8;padding:20px}
+.box{background:white;padding:25px;border-radius:8px;max-width:900px;margin:auto}
+a{color:#ff5722;text-decoration:none;font-weight:bold}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>Electrical Wiring &amp; Rewiring</h1>
+
+<p>
+Our electrical wiring service is designed to provide safe, efficient and
+long-lasting power distribution for residential and commercial buildings.
+We handle new installations, upgrades and complete rewiring projects.
+Old wiring systems can cause power failure, overheating and fire risks.
+We inspect all cables, switches and sockets before work begins.
+High-quality copper wires and certified accessories are used.
+We ensure proper earthing and load balancing.
+All wiring follows safety standards and electrical codes.
+Neat conduit installation keeps your walls clean.
+We test every connection before completion.
+Our service improves appliance lifespan.
+We prevent electric shocks and short circuits.
+Reliable wiring means stable power.
+We work fast and professionally.
+Customer safety is our priority.
+We guarantee durable results.
+</p>
+
+<a href="http://127.0.0.1:5500/contact.html">📞 Contact Us</a>
+</div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
